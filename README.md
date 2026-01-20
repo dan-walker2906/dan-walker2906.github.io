@@ -1,46 +1,48 @@
-# Darpan Parekh - Senior Developer Portfolio
+# Darpan Parekh Portfolio - Professional Resume Design
 
-A premium, performant, and responsive portfolio designed for a senior software engineer. Featuring dark-mode aesthetics, smooth animations with Framer Motion, and a clean professional layout.
+A lightweight, high-performance portfolio website redesign for Darpan Parekh, Senior Software Engineer. This version utilizes modern glassmorphism aesthetics and is built using only vanilla HTML, CSS, and JavaScript for seamless deployment and easy maintenance.
 
-## ✨ Features
-- **Modern Tech Stack**: Built with Next.js 14, React, and Tailwind CSS.
-- **Glassmorphism UI**: High-end visuals with blurred backgrounds and neon indigo/cyan accents.
-- **Interactive Timeline**: Animated vertical history of professional experience.
-- **Dynamic Skills Grid**: Animated progress bars showing technical proficiency.
-- **Responsive Layout**: Optimized for all devices from mobile to ultra-wide displays.
-- **Framer Motion**: Subtle and professional entrance animations.
+## Features
+- **Resume-First Layout**: Focused on professional experience and technical skills.
+- **Glassmorphism UI**: Semi-transparent cards with backdrop blurs and subtle borders.
+- **Responsive Animations**: Smooth scroll-reveal effects and interactive hover states.
+- **Micro-interactions**: Animated timeline dots and interactive contact form feedback.
+- **Mobile First**: Fully responsive design that adapts from smartphones to 4K displays.
+- **SEO Optimized**: Semantic HTML tags and meta descriptions included.
 
-## 🚀 Getting Started
+## Prerequisites
+No special software is required. You only need:
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- A text editor (VS Code, Sublime Text, or Notepad) for making updates
 
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
+## Installation & Setup
+1. Download or clone this project repository.
+2. Ensure `index.html`, `style.css`, and `script.js` are in the same directory.
+3. To customize the text:
+    - Open `index.html` in your text editor.
+    - Locate the sections for `Experience`, `Skills`, and `Projects`.
+    - Edit the text within the `<li>`, `<h3>`, and `<p>` tags to match your latest achievements.
+4. To change images:
+    - Find the `background-image` style urls in the `Projects` section and replace them with your own Unsplash or local image links.
 
-### Installation
-1. Clone the repository and navigate into the folder:
-    npm install
+## How to Run Locally
+Simply open the `index.html` file in your preferred web browser:
+- Double-click `index.html` in your file explorer.
+- **OR** right-click `index.html` and select "Open with..." and choose your browser.
 
-2. Run the development server:
-    npm run dev
+## Deployment to GitHub Pages
+Since this is a static site (No Build required), it is perfect for `dan-walker2906.github.io`:
+1. Push these files to your GitHub repository.
+2. Go to Repository **Settings** > **Pages**.
+3. Under "Branch", select `main` (or your default branch) and the root folder `/`.
+4. Click **Save**. Your site will be live at `https://dan-walker2906.github.io` within minutes.
 
-3. Open your browser:
-    Navigate to `http://localhost:3000`
+## Project Structure
+- `index.html`: Contains the content and structural layout.
+- `style.css`: Defines the modern glassmorphism look and responsive grid systems.
+- `script.js`: Handles scroll animations, mobile menu, and form interactions.
 
-### 🛠 Deployment
-This app is ready for Vercel deployment:
-    npm run build
-
-## 📂 Project Structure
-- `src/app/`: Next.js App Router files (layouts, pages, globals).
-- `src/components/`: Modular UI components (Hero, Navbar, Experience, etc.).
-- `src/lib/data.ts`: Central source of truth for all resume content.
-- `public/`: Assets such as resume PDF and static icons.
-
-## 📝 Customization
-All resume content is stored in `src/lib/data.ts`. To update your details, simply edit the text in that file.
-
-## 🛠 Tech Used
-- **Framework**: Next.js 14
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
+## Troubleshooting
+- **Animations not working?** Ensure `script.js` is correctly linked at the bottom of `index.html`.
+- **Icons missing?** Ensure you have an active internet connection to load FontAwesome from the CDN.
+- **Layout looks weird on mobile?** Ensure the `<meta name="viewport">` tag is present in the head of your HTML.
